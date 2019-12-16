@@ -43,25 +43,23 @@ The aim of the project is to:
 Your goal when playing is fairly simple: move Qat the Cat around a grid map, from its initial position to a given final position.
 
 ### Movement 
-As we said, movement is the main mechanic of the game. In order to move Qat, you must manipulate the state of two qubits,
-$$| q_1, q_0 \rangle,$$ in such a way that each possible basis state corresponds to one of the four cardinal directions:
-* $|00 \rangle$ corresponds to moving _up_,
-* $|01 \rangle$ corresponds to moving _right_,
-* $|10 \rangle$ corresponds to moving _down_,
-* $|11 \rangle$ corresponds to moving _left_.
+As we said, movement is the main mechanic of the game. In order to move Qat, you must manipulate the state of two qubits, |q_1, q_0⟩, in such a way that each possible basis state corresponds to one of the four cardinal directions:
+* |00⟩ corresponds to moving _up_,
+* |01⟩ corresponds to moving _right_,
+* |10⟩ corresponds to moving _down_,
+* |11⟩ corresponds to moving _left_.
 
-In order to do this, you are given a list of quantum gates: $X, H, CNOT$ and $I$. You must first choose what qubit(s) you want to act on, and then the gate(s) that you want to apply.
+In order to do this, you are given a list of quantum gates: _X_, _H_, _CNOT_ and _I_. You must first choose what qubit(s) you want to act on, and then the gate(s) that you want to apply.
 
 Once that the state of the two qubits is the one you desire, you must click on the Qat button in order to move in the corresponding direction.
 
 ### Splitting Qat
 
-In Quantum Mechanics, one system may be in a _superposition_ of two states. For example, a qubit may be in the state $|0\rangle$, $|1\rangle$ or a superposition of both, denoted by
-$$a \,|0\rangle + b\, |1\rangle.$$
+In Quantum Mechanics, one system may be in a _superposition_ of two states. For example, a qubit may be in the state |0⟩, |1⟩ or a superposition of both, denoted by
+a |0⟩ + b |1⟩.
 
 When we are using two qubits, like we are for moving Qat, we may have a state that looks like
-$$\frac{1}{\sqrt{2}} \left( \,|00\rangle + \, |11\rangle \right),$$
-meaning that Qat will split into two Qats with an equal _probability amplitude_.
+1/sqrt\[2\] (|00⟩ + |11⟩), meaning that Qat will split into two Qats with an equal _probability amplitude_.
 
 
 ## Future of the project
